@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" style="-fx-background-color: #F5F5DC;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Scn2Controller">
+   <children>
+      <Text layoutX="29.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What Combo would you like ?">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="86.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Combo 1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="86.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1x Fries 1x Chicken 1x Soft Drink" />
+      <Text layoutX="85.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Combo 2">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="85.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1x Fries 2x Chicken 1x Soft Drink" />
+      <Text layoutX="84.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Combo 3">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="84.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1x Fries 1x Hamburger 1x Soft Drink" />
+      <Text layoutX="84.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Combo 2">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="84.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1x Fries 1x Cheeseburger 1x Soft Drink" />
+      <Button layoutX="150.0" layoutY="344.0" mnemonicParsing="false" onAction="#orderCombo" prefWidth="200.0" text="Order" />
+      <Spinner fx:id="combo1" editable="true" layoutX="325.0" layoutY="67.0" prefHeight="25.0" prefWidth="113.0" />
+      <Spinner fx:id="combo2" editable="true" layoutX="325.0" layoutY="134.0" prefHeight="25.0" prefWidth="113.0" />
+      <Spinner fx:id="combo3" editable="true" layoutX="325.0" layoutY="206.0" prefHeight="25.0" prefWidth="113.0" />
+      <Spinner fx:id="combo4" editable="true" layoutX="325.0" layoutY="274.0" prefHeight="25.0" prefWidth="113.0" />
+   </children>
+</AnchorPane>
